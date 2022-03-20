@@ -47,7 +47,7 @@ describe('Manage Settings for Amaysim', function () {
 
   }) 
 
-  it('Open Settings Page', function () { 
+  it.skip('Open Settings Page', function () { 
 
     cy.get('[class="icon-link theme-inline-orange icon-user margin-none"]') 
       .click()
